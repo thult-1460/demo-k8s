@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: laravel-config-1
+data:
+  APP_ENV: local
+  DB_HOST: mysql
+  DB_DATABASE: laravel
+  DB_USERNAME: root
+  DB_PASSWORD: root
